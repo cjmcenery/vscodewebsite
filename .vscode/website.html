@@ -29,20 +29,13 @@ printLetterByLetter("myNameIs", "print(Hello World, I'm Connor!)", 70,);
 
 
 <!--About Me Heading-->
-<p id='aboutme' class='aboutme2' style='font-family: muli; font-size: 10vw; color: white; padding-top: 12vw; padding-bottom: 5px; margin-bottom: 0%; margin-top: 0px; text-align: center;'>About Me</p>
+<p id='aboutmeheader' class='aboutme2' style='font-family: muli; font-size: 10vw; color: white; padding-top: 12vw; padding-bottom: 5px; margin-bottom: 0%; margin-top: 0px; text-align: center;'>About Me</p>
 <script>
     window.onscroll = function() {myFunction()};
     function myFunction() {
       if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
-        document.getElementById("aboutme").className = "slideUp";
-        document.getElementById("aboutmepara").className = "slideUp";
-      }
-    }
-    window.onscroll = function() {myFunction()};
-    function myFunction() {
-      if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
-        document.getElementById("aboutme").className = "spinAway";
-        document.getElementById("aboutmepara").className = "spinAway";
+        document.getElementById("aboutmeheader").className = "aboutMeHeaderSlideLeft";
+        document.getElementById("aboutmepara").className = "slideRight";
       }
     }
 
@@ -60,7 +53,7 @@ printLetterByLetter("myNameIs", "print(Hello World, I'm Connor!)", 70,);
 </script>
 -->
 <!--About me Paragaph-->
-    <p id='aboutmepara' class='aboutme2' style='color: white; text-align: justify; margin-top: 0px; margin-left: 25%; margin-right: 25%; line-height: 50px; font-size: 1.5vw; font-family: muli;'></p>
+    <p id='aboutmepara'' class='aboutmepara'></p>
     <script>  
     
         printLetterByLetter("aboutmepara", "Hi! My name is Connor McEnery. I am a sophomore at Cornell University's College of Engineering where I am studying Computer Science. I am very passionate about the field and have a strong desire to learn more about it.", 60);
