@@ -1,3 +1,99 @@
 <html>
-<p>testwfjne</p>
+    <body>
+<link rel="stylesheet" href='connormcenery.css'>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<div name='top'></div>
+<!--Button to Top-->
+<button id="myBtn"><a href="#top" onclick="document.body.scrollTop=0;document.documentElement.scrollTop=0;event.preventDefault()">Top</a></button>
+<!--Hello World-->
+<p id='myNameIs'></p>
+<script>
+function printLetterByLetter(destination, message, speed){
+    var i = 0;
+    var interval = setInterval(function(){
+        document.getElementById(destination).innerHTML += message.charAt(i);
+        i++;
+        if (i > message.length){
+            clearInterval(interval);
+        }
+    }, speed);
+}
+printLetterByLetter("myNameIs", "print(Hello World, I'm Connor!)", 70,);
+</script>
+
+
+<!--Tree-->
+
+
+
+
+<!--About Me Heading-->
+<p id='aboutme' class='aboutme2' style='font-family: muli; font-size: 10vw; color: white; padding-top: 12vw; padding-bottom: 5px; margin-bottom: 0%; margin-top: 0px; text-align: center;'>About Me</p>
+<script>
+    window.onscroll = function() {myFunction()};
+    function myFunction() {
+      if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+        document.getElementById("aboutme").className = "slideUp";
+        document.getElementById("aboutmepara").className = "slideUp";
+      }
+    }
+    window.onscroll = function() {myFunction()};
+    function myFunction() {
+      if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+        document.getElementById("aboutme").className = "spinAway";
+        document.getElementById("aboutmepara").className = "spinAway";
+      }
+    }
+
+
+    </script>
+<!--Line
+<hr id='line'></hr>
+<script>
+    window.onscroll = function() {myFunction1()};
+    function myFunction1() {
+      if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+        document.getElementById("line").className = "slideIn";
+      }
+    }
+</script>
+-->
+<!--About me Paragaph-->
+    <p id='aboutmepara' class='aboutme2' style='color: white; text-align: justify; margin-top: 0px; margin-left: 25%; margin-right: 25%; line-height: 50px; font-size: 1.5vw; font-family: muli;'></p>
+    <script>  
+    
+        printLetterByLetter("aboutmepara", "Hi! My name is Connor McEnery. I am a sophomore at Cornell University's College of Engineering where I am studying Computer Science. I am very passionate about the field and have a strong desire to learn more about it.", 60);
+    </script>
+
+
+
+
+
+    
+
+
+
+
+
+
+
+<p style='font-size: 10px; color: white;padding-top:100vw;'>nNnfwneifnoiwenfinweinfoiwenfinewionfiwenfinweinfoiwenfinweoifnweinfinweoifniowen oenfnwekfniowenin oii noi n ienin oinie ijwei  jiewj i0jiwejie jij i0 jwij wi j</p>
+
+
+
+
+<p id="demo" style='font-size: 30px'></p>
+        <script>
+screen.width;
+        </script>
+
+
+
+
+
+
+
+<div id='copyright'>© Copyright 2020 - Connor McEnery</div>
+    </body>
 </html>
